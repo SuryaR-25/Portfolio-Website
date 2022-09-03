@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surya Portfolio</title>
+    <link rel="shortcut icon" type="images" href="images/logo_4.png"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/48cdc07dca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+        <div class="hero">
+            <div class="container"></div>
+                <nav>
+                    <div class="align">
+                        <img src="images/logo.png" class="logo">
+                    </div>
+                    <ul id="sidemenu">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+            
+
+
+        <div class="detel">
+            <h1>I,M Surya <span>R</span></h1>
+            <p>This is my official Portfolio website to showcase my 
+                all works related to <br> web development and ui design. </p>
+            <a href="#" onclick="window.location.href='https://drive.google.com/u/0/uc?id=1VYVHKPjdUihcTlf0H8Yu-eXYjl4u5i4X&export=download'">Download CV</a>
+        </div>
+        <div class="images">
+            <img src="images/shape.png" class="shape">
+            <img src="images/Surya pic.png" class="Surya">
+        </div>
+
+        <div class="social">
+           <a href="#"onclick="window.location.href='https://www.linkedin.com/in/surya-r-78ab7a1b6/'"><i class="fab fa-linkedin"></i></a>
+           <a href="#"onclick="window.location.href='https://www.instagram.com/_s.u_.r._y.a_/'"><i class="fab fa-instagram"></i></a>
+           <a href="#"onclick="window.location.href='https://github.com/SuryaR-25'"><i class="fab fa-github"></i></a>
+           <a href="#"onclick="window.location.href='https://twitter.com/Surya_25_'"><i class="fab fa-twitter"></i></a>
+        </div>
+        </div>
+
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="images/Suri.JPG" class="Suri">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Computer Science Engineering at Velammal Institute of Technology;<br>
+                        I spend my day practically learning & experimenting with technologies;
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C</span><br>Theoretical/Conceptual</li>
+                            <li><span>Java</span><br>Buildapps</li>
+                            <li><span>DataAnalytics</span><br>Data Organizing</li>
+                            <li><span>MySql</span><br>Database</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Java</span><br>Buildapps</li>
+                            <li><span>MySql</span><br>Database</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Velammal Institute of Technology</li>
+                            <li><span>2019</span><br>Sri Sankara Vidhyashramam Matriculation hr.sec.school</li>
+                            <li><span>2017</span><br>Sri Sankara Vidhyashramam Matriculation hr.sec.school</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class = "container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>WebDesign</h2>
+                    <p>user</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>AppDesign</h2>
+                    <p>user</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>DataDesign</h2>
+                    <p>user</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------Portfolio---------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Restaurant Management System</h3>
+                        <p>Based on Order Management collect user details and Print Bill.<br>
+                            Creating a proper Full stack App With (Login and Signup Page, etc..) using Java Frame and My SQL. <br>
+                            Platform used as NetBeans Java ide.
+                            </p>
+                            <a href="https://github.com/SuryaR-25/RESTAURANT-MANAGEMENT-SYSTEM"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Simple Conversion Calculator</h3>
+                        <p>Based on Length, Temperature, Mass Conversion Application using packages<br>
+                         Platform used as NetBeans Java ide </p>
+                         <a href="https://github.com/SuryaR-25/Simple-Conversion"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Zomato clone Website</h3>
+                        <p>clone based limited feature zomato website</p>
+                        <a href="https://github.com/SuryaR-25/Surya-zomato-clone-main"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--------------------contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>suryarsrm@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8778743278</p>
+                    <div class="social-icons">
+                        <a href=""onclick="window.location.href='https://www.linkedin.com/in/surya-r-78ab7a1b6/'"><i class="fab fa-linkedin"></i></a>
+                        <a href=""onclick="window.location.href='https://www.instagram.com/_s.u_.r._y.a_/'"><i class="fab fa-instagram"></i></a>
+                        <a href=""onclick="window.location.href='https://twitter.com/Surya_25_'"><i class="fab fa-twitter"></i></a>
+                        <a href=""onclick="window.location.href='https://github.com/SuryaR-25'"><i class="fab fa-github"></i></a>
+                    </div class="btn btn2">
+                     <a href="https://drive.google.com/u/0/uc?id=1VYVHKPjdUihcTlf0H8Yu-eXYjl4u5i4X&export=download" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <succ id="msg"> </succ>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Surya. Made by me!!<i class="fas fa-heart"></i></i></p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyt6MdPo-6ezmQ1YaNtkdfesBd3fVHgcp0mO54dBUnZGsMtAbNwHAn8PuLbTJJq3fFIFw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
