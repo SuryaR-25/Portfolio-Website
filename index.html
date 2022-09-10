@@ -8,13 +8,18 @@
     <link rel="shortcut icon" type="images" href="images/logo_4.png"/>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style-switcher.css">
+
     <script src="https://kit.fontawesome.com/48cdc07dca.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <button id="btnScrollToTop">
+        <i class="fas fa-angle-up"></i>
+    </button>
 
-
+    <div id="preloader"></div>
+    
         <div class="hero">
-            <div class="container"></div>
                 <nav>
                     <div class="align">
                         <img src="images/logo.png" class="logo">
@@ -27,21 +32,21 @@
                         <li><a href="#contact">CONTACT</a></li>
                         <i class="fas fa-times" onclick="closemenu()"></i>
                     </ul>
+        
                     <i class="fas fa-bars" onclick="openmenu()"></i>
                 </nav>
-            
+    
 
 
         <div class="detel">
-            <h1>I,M Surya <span>R</span></h1>
-            <p>This is my official Portfolio website to showcase my 
-                all works related to <br> web development and ui design. </p>
+            <h2>Hello,</h2>
+            <h1>I'M Surya <span>R</span></h1>
+            <div class="text-3">And I'm a <span class="typing"></span></div>
+            <p>This is my official Portfolio website to showcase my all works related to  web development and app design.<br>I am a Fresher Studying BE.CSE... I love programming, writing, speaking, cooking and traveling.<br>Glad to see you here!</p>
             <a href="#" onclick="window.location.href='https://drive.google.com/u/0/uc?id=1VYVHKPjdUihcTlf0H8Yu-eXYjl4u5i4X&export=download'">Download CV</a>
         </div>
-        <div class="images">
-            <img src="images/shape.png" class="shape">
-            <img src="images/Surya pic.png" class="Surya">
-        </div>
+
+       
 
         <div class="social">
            <a href="#"onclick="window.location.href='https://www.linkedin.com/in/surya-r-78ab7a1b6/'"><i class="fab fa-linkedin"></i></a>
@@ -107,22 +112,22 @@
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>WebDesign</h2>
-                    <p>user</p>
+                    <p>created my personal portfolio and designed using css</p>
                     <a href="#">Learn more</a>
                 </div>
 
                 <div>
                     <i class="fa-solid fa-crop-simple"></i>
                     <h2>AppDesign</h2>
-                    <p>user</p>
-                    <a href="#">Learn more</a>
+                    <p>done some apps using java <br>and Sql</p>
+                    <a href="#portfolio">Learn more</a>
                 </div>
 
                 <div>
                     <i class="fa-brands fa-app-store"></i>
-                    <h2>DataDesign</h2>
-                    <p>user</p>
-                    <a href="#">Learn more</a>
+                    <h2>DataAnalytics</h2>
+                    <p>currently undergoing project in IBM </p>
+                    <a href="https://www.ibm.com/in-en/marketing/careereducation/bigdata-analytics/">Learn more</a>
                 </div>
             </div>
         </div>
@@ -134,7 +139,7 @@
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="images/work-1.png">
+                    <img src="images/restaurant-management-system.jpg">
                     <div class="layer">
                         <h3>Restaurant Management System</h3>
                         <p>Based on Order Management collect user details and Print Bill.<br>
@@ -145,7 +150,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-2.png">
+                    <img src="images/Screenshot 2022-09-06 203802.jpg">
                     <div class="layer">
                         <h3>Simple Conversion Calculator</h3>
                         <p>Based on Length, Temperature, Mass Conversion Application using packages<br>
@@ -154,17 +159,25 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-3.png">
+                    <img src="images/zomato.jpg">
                     <div class="layer">
                         <h3>Zomato clone Website</h3>
                         <p>clone based limited feature zomato website</p>
-                        <a href="https://github.com/SuryaR-25/Surya-zomato-clone-main"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://szomatoclone.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See more</a>
+            <a href="https://github.com/SuryaR-25?tab=repositories" class="btn">See more</a>
         </div>
     </div>
+
+    <!-----------Style Switcher Start--------->
+    <div class="style-switcher">
+        <div class="day-night s-icon">
+        <i class="fas "></i>
+        </div>
+    </div>  
+    
     <!--------------------contact------------->
     <div id="contact">
         <div class="container">
@@ -195,11 +208,16 @@
         <div class="copyright">
             <p>Copyright © Surya. Made by me!!<i class="fas fa-heart"></i></i></p>
         </div>
+        <div class="load">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JRQei9hJekc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JRQei9hJekc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JRQei9hJekc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JRQei9hJekc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JRQei9hJekc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JRQei9hJekc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
-
-
-
-
+ 
 
 
     <script>
@@ -251,5 +269,39 @@
     })
   </script>
 
+
+    <!------------typing text----------->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".typing",{
+            strings: ["Developer", "Designer", "Engineer"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
+    <!------------Scroll button---------->
+    <script>    
+        const btnScrollToTop = document.querySelector("#btnScrollToTop");
+        btnScrollToTop.addEventListener("click", function(){
+            // window.scrollto(0,0);
+
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth"
+            });
+            $("html, body").animate({btnScrollTop:0 }, "slow");
+
+        });
+    </script>
+    <!------------Loading Screen---------->
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+    </script>
+    <script src="style-switcher.js"></script>
 </body>
 </html>
